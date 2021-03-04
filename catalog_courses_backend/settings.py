@@ -32,22 +32,6 @@ INSTALLED_APPS = [
     'api',
     'corsheaders'
 ]
-CORS_ORIGIN_ALLOW_ALL = True 
-CORS_ALLOW_CREDENTIALS = True
-CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3030',
-]
-CORS_ORIGIN_REGEX_WHITELIST = [
-    'http://localhost:3030',
-]
-CORS_ALLOW_METHODS = [
-    'DELETE',
-    'GET',
-    'OPTIONS',
-    'PATCH',
-    'POST',
-    'PUT',
-]
 REST_FRAMEWORK = {
     # Use Django's standard `django.contrib.auth` permissions,
     # or allow read-only access for unauthenticated users.
