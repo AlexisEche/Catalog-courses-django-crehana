@@ -16,7 +16,7 @@ SECRET_KEY = '4hvqka%822-c_154-m=0t+b*_w4967pul6(oon+69+5nda_5wu'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://catalog-courses-react-typescript.netlify.app/']
 
 
 # Application definition
