@@ -1,1 +1,1 @@
-web: gunicorn catalog_courses_backend.wsgi --log-file -
+web: gunicorn catalog_courses_django.wsgi --log-file -
