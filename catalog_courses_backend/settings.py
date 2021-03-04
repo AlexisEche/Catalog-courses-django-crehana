@@ -35,10 +35,10 @@ INSTALLED_APPS = [
 CORS_ORIGIN_ALLOW_ALL = True 
 CORS_ALLOW_CREDENTIALS = True
 CORS_ORIGIN_WHITELIST = [
-    'http://localhost:3030',
+    'https://catalog-courses-react-typescript.netlify.app',
 ]
 CORS_ORIGIN_REGEX_WHITELIST = [
-    'http://localhost:3030',
+    'https://catalog-courses-react-typescript.netlify.app',
 ]
 CORS_ALLOW_METHODS = [
     'DELETE',
